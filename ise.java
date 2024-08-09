@@ -19,7 +19,7 @@ public class ise {
                         || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') {
                         vowels++;
                     } else if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
-                        consonants++;
+                        consonants++;de4rtf5tvf5tf5t
                     }
                 }
             }
