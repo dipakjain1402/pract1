@@ -2,14 +2,14 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "your-dockerhub-username/your-app-name"
+        DOCKER_IMAGE = "admin"
     }
 
     stages {
         stage('Checkout') {
             steps {
                 // Pull code from the GitHub repository
-                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'main', url: 'https://github.com/dipakjain1402/pract1'
             }
         }
 
